@@ -1,0 +1,12 @@
+{
+  "name": "mmm-energyzero",
+  "version": "1.0.0",
+  "description": "MagicMirror module for Dutch electricity and gas prices from the public EnergyZero API",
+  "main": "MMM-EnergyZero.js",
+  "license": "MIT",
+  "author": "HarrieV8",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarrieV8/MMM-EnergyZero"
+  }
+}

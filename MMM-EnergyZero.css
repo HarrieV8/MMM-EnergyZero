@@ -1,0 +1,51 @@
+.energyzero {
+	min-width: 280px;
+}
+
+.energyzero-now {
+	display: flex;
+	gap: 24px;
+}
+
+.energyzero-price .large {
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.energyzero-bars,
+.energyzero-months {
+	display: flex;
+	align-items: flex-end;
+	gap: 2px;
+	height: 48px;
+	margin-top: 10px;
+}
+
+.energyzero-bar,
+.energyzero-month-bar {
+	flex: 1;
+	background: rgba(255, 255, 255, 0.35);
+	min-width: 3px;
+}
+
+.energyzero-bar.current {
+	background: #fff;
+}
+
+.energyzero-history {
+	margin-top: 12px;
+}
+
+.energyzero-month {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+	gap: 4px;
+}
+
+.energyzero-month-bar {
+	width: 100%;
+}
